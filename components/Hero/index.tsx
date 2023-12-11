@@ -281,7 +281,7 @@ const Hero = () => {
           </svg>
         </div> */}
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          <Image src="/images/blog/author-02.png" alt="author" fill />
+          <Image src="./images/blog/author-02.png" alt="author" fill />
         </div>
       </section>
     </>

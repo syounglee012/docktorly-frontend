@@ -6,7 +6,7 @@ const blogData: Blog[] = [
     title: "Enhancing Specialist Care Coordination in Direct Primary Care",
     paragraph:
       "The development of a platform to facilitate the relationship between physicians in direct primary care",
-    image: "/images/blog/blog-01.jpg",
+    image: "./images/blog/blog-01.jpg",
     author: {
       name: "Docktorly",
       // image: "/images/blog/author-01.png",
@@ -21,7 +21,7 @@ const blogData: Blog[] = [
       "Innovation in Patient Triage: Optimizing Specialist Referrals for Quicker Diagnosis and Treatment",
     paragraph:
       "Streamlining Referrals, Speeding Healing: Redefining Patient Care Pathways",
-    image: "/images/blog/blog-02.jpg",
+    image: "./images/blog/blog-02.jpg",
     author: {
       name: "Docktorly",
       // image: "/images/blog/author-02.png",
@@ -36,7 +36,7 @@ const blogData: Blog[] = [
       "Revamping Healthcare Networks: Innovative Approaches to Strengthening Physician-Specialist Partnerships",
     paragraph:
       "Breaking Barriers, Connecting Care: Transforming Healthcare Collaboration",
-    image: "/images/blog/blog-03.jpg",
+    image: "./images/blog/blog-03.jpg",
     author: {
       name: "Docktorly",
       // image: "/images/blog/author-03.png",
