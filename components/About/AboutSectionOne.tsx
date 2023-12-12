@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="revolutionary platform that streamlines the consultation"
-                paragraph="At Doctorly, we understand the challenges that direct
+                paragraph="At Docktorly, we understand the challenges that direct
 					primary care doctors face when seeking specialist opinions
 					for their patients. That&#39;s why we have developed a
 					revolutionary platform that streamlines the consultation
