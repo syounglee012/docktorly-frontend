@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder Myrostar Health",
     content:
       "To combat the growing industrialization of health care, we need to support small primary care practices as they are the ones in the best position to deliver cost-effective, high quality care",
-    image: "/images/testimonials/auth-02.png",
+    image: "./images/testimonials/auth-02.png",
     star: 5,
   },
   // {
