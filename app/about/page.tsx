@@ -7,7 +7,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Page",
   description: "This is About Page for Docktorly",
-  // other metadata
+  // other metadata...
 };
 
 const AboutPage = () => {
