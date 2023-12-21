@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   title: "Bridging Between Specialty and Primary Care",
   description: "This is Home for Docktorly",
   // other metadata
-  
 };
 
 export default function Home() {
@@ -24,14 +23,14 @@ export default function Home() {
     <>
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-GLS7RWLBH7"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       ></Script>
       <Script id="google analytics" strategy="afterInteractive">
         {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-GLS7RWLBH7');`}
+  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');`}
       </Script>
       <ScrollUp />
       <Hero />
