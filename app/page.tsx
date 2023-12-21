@@ -22,7 +22,6 @@ export default function Home() {
     <>
     <head></head>
     <div>
-            <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLS7RWLBH7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
