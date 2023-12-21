@@ -10,18 +10,19 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Bridging Between Specialty and Primary Care",
   description: "This is Home for Docktorly",
   // other metadata
+  
 };
 
 export default function Home() {
   return (
     <>
-    <head></head>
-    <div>
+      <Head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLS7RWLBH7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -30,8 +31,7 @@ export default function Home() {
 
   gtag('config', 'G-GLS7RWLBH7');
 </script>
-    </div>
-
+      </Head>
       <ScrollUp />
       <Hero />
       <Features />
