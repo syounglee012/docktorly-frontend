@@ -14,17 +14,6 @@ export const metadata: Metadata = {
 const Blog = () => {
   return (
     <>
-      <Script
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      ></Script>
-      <Script id="google analytics" strategy="afterInteractive">
-        {`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');`}
-      </Script>
       <Breadcrumb
         pageName="Blog"
         description="Our blog seeks to empower individuals with insights, stories, and resources that illuminate the transformative potential of healthcare partnerships and the pivotal role they play in shaping well-being."
