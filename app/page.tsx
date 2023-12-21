@@ -10,7 +10,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
-import Head from "next/head";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Bridging Between Specialty and Primary Care",
@@ -22,16 +22,17 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GLS7RWLBH7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-GLS7RWLBH7"
+      ></Script>
+      <Script id="google analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-GLS7RWLBH7');
-</script>
-      </Head>
+  gtag('config', 'G-GLS7RWLBH7');`}
+      </Script>
       <ScrollUp />
       <Hero />
       <Features />
