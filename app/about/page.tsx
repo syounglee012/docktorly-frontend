@@ -4,7 +4,6 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Head from "next/head";
 import Script from "next/script";
 import { Metadata } from "next";
-
 export const metadata: Metadata = {
   title: "About Page",
   description: "This is About Page for Docktorly",
@@ -14,6 +13,17 @@ export const metadata: Metadata = {
 const AboutPage = () => {
   return (
     <>
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      ></Script>
+      <Script id="google analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');`}
+      </Script>
       <Breadcrumb
         pageName="About Page"
         description="At Docktorly, we understand the challenges that direct
