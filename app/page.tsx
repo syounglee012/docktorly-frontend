@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <!-- Google tag (gtag.js) -->
+    <head> <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLS7RWLBH7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -28,7 +28,7 @@ export default function Home() {
   gtag('js', new Date());
 
   gtag('config', 'G-GLS7RWLBH7');
-</script>
+</script></head>
       <ScrollUp />
       <Hero />
       <Features />
