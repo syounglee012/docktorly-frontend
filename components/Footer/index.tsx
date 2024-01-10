@@ -77,7 +77,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/www.linkedin.com"
+                    href="https://www.linkedin.com/company/docktorly?trk=public_post_feed-actor-image"
                     aria-label="social-link"
                     className="text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
