@@ -49,7 +49,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/www.twitter.com"
+                    href="https://twitter.com/docktorly"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
@@ -63,7 +63,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/www.youtube.com"
+                    href="http://www.youtube.com/@Docktorly"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
