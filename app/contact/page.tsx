@@ -13,8 +13,6 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb pageName="Contact Page" description="Contact us" />
-      <div className='mx-24 text-gray-500'><p>Email: <span className="blockspam" aria-hidden="true">PLEASE GO AWAY!</span>info@docktorly.com</p>
-</div>
 
       <Contact />
     </>
